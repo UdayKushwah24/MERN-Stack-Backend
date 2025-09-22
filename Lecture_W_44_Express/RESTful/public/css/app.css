@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: rgb(88, 12, 12);
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+h4 {
+  text-align: center;
+  font-family: cursive;
+  color: maroon;
+}
+
+
+section {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+div {
+    /* padding: 0 40px; */
+    width: 240px;
+    height: 220px;
+    background-color: rgb(249, 147, 23);
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+    font-weight: 600;
+    font-family:sans-serif;
+    padding-bottom: 0;
+}

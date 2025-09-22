@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form for editing blogs blogs</h1>
+
+    <form action="/blogs/<%= foundComment.id %>?_method=PATCH" method="post">
+        <br> 
+        <label for="co">Comment :</label>
+        <input type="text" name="com" id="co" value="<%= foundComment.comment %>">
+        <br>
+        <br>
+        <button type="submit"> Edit Comment</button>
+
+    </form>
+</body>
+
+</html>
